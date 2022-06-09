@@ -7,10 +7,12 @@ import Info from './components/Info'
 export default function App(){
     return (
         <div className="App">
-            <Info />
-            <About />
-            <Interests />
-            <Footer />
+            <div className="container">
+                <Info />
+                <About />
+                <Interests />
+                <Footer />
+            </div>
         </div>
     )
 }
