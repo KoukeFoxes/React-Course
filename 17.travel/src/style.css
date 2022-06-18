@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    /* position: absolute; */
+    /* width: 550px; */
+    height: 55px;
+    background: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+nav > i {
+    /* margin-right: 7px; */
+    font-size: 24px;
+    margin-right: 7px;
+    color: #FFFFFF;
+}
+
+.nav--title {
+    /* position: absolute; */
+    width: 109px;
+    height: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+
+    color: #FFFFFF;
+}
+
+.list{
+    /* display: flex; */
+    /* margin-bottom: 45px; */
+}
+
+.card {
+    margin: 18px 40px 18px 40px;
+    /* position: absolute; */
+    display: flex;
+}
+
+.card--info {
+    display: grid;
+}
+
+.card--icon{
+    color: #F55A5A;
+    margin-right: 4px;
+   
+}
+.card--img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    margin-right: 19px;
+}
+
+.card--location-div {
+    margin: 7px;
+}
+.card--location {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+
+    color: #2B283A;
+
+    margin-right: 12px;
+}
+
+.card--google {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    /* identical to box height */
+    text-decoration-line: underline;
+
+    color: #918E9B;
+}
+
+.card--title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #2B283A;
+}
+
+.card--date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+
+    color: #2B283A;
+
+    margin-bottom: 9px;
+}
+
+.card--description {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+    color: #2B283A;
+}
