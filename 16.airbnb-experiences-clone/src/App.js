@@ -11,6 +11,7 @@ export default function App() {
     const cards = Data.map(card =>
         <Card
             key={card.id}
+            
             // img={card.coverImg}
             // rating={card.stats.rating}
             // reviewCount={card.stats.reviewCount}
