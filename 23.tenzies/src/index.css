@@ -1,13 +1,148 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  background: #0B2434;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.App {
+
+  max-width: 320px;
+  height: 320px;
+
+  background: #F5F5F5;
+  border-radius: 10px;
+
+}
+
+.Title {
+
+  margin: 0 61.44px;
+  padding-top: 33.28px;
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25.6px;
+  line-height: 30px;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #2B283A;
+}
+
+.Subtitle {
+
+  width: 232.96px;
+  margin: 0 auto 23.08px auto;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.1072px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #4A4E74;
+
+}
+
+.DiceContainer {
+  
+  margin: 0 34.56px 25.6px 34.56px;
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr); 
+  row-gap: 18.56px;
+  column-gap: 17.92px;
+}
+
+.dice {
+
+  width: 35.84px;
+  height: 35.84px;
+
+  /* background: #FFFFFF; */
+
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+}
+
+.dice--number{
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.5889px;
+  line-height: 24px;
+  text-align: center;
+  
+  color: #2B283A;
+}
+
+/* .isHeld {
+  background: #59E391 !important;
+} */
+
+.RollButton{
+
+  min-width: 92.16px;
+  height: 35.84px;
+  padding: 0 10px 0 10px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  border: none;
+
+  cursor: pointer;
+
+  background: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+}
+
+.RollButton:focus {
+  outline: none;
+}
+
+.RollButton:active {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.RollButtonText{
+
+  margin: auto auto;
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.384px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+
